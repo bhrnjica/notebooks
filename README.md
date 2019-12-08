@@ -1,2 +1,2 @@
 # notebooks
-List of C# Jypiter Notebooks published as blogposts and online articles.
+List of C# Jupyter Notebooks published as blogposts and online articles.
