@@ -1,0 +1,105 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "FEMHeatLib/1.0.0": {
+        "dependencies": {
+          "Daany.DataFrame": "1.1.0",
+          "Daany.LinA.win-x64": "1.0.3",
+          "FEMCommon": "1.0.0"
+        },
+        "runtime": {
+          "FEMHeatLib.dll": {}
+        }
+      },
+      "Daany.DataFrame/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/Daany.DataFrame.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.1/Daany.MathStuff.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Daany.LinA.win-x64/1.0.3": {
+        "dependencies": {
+          "intelmkl.redist.win-x64": "2021.3.0.524"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Daany.LinA.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "intelmkl.redist.win-x64/2021.3.0.524": {
+        "dependencies": {
+          "intelopenmp.redist.win": "2021.1.1.191",
+          "inteltbb.redist.win": "2021.1.1.133"
+        }
+      },
+      "intelopenmp.redist.win/2021.1.1.191": {},
+      "inteltbb.redist.win/2021.1.1.133": {},
+      "FEMCommon/1.0.0": {
+        "runtime": {
+          "FEMCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FEMHeatLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Daany.DataFrame/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b+HtN/zNtdllcZXW3gxV83dFXLJzHWQeUU80TZ6pm3PS+q4quupRU8ERomr7JzEiYmkaJAUK6Yo0Kb1ILbjhwA==",
+      "path": "daany.dataframe/1.1.0",
+      "hashPath": "daany.dataframe.1.1.0.nupkg.sha512"
+    },
+    "Daany.LinA.win-x64/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xuu5nbVj/LvjtqYXxeQBwYoZOm4l7k8D7ts9wK7R4cG4AAek4o9KORwKmdtNDD0xwdT7XMrOqx2taOD9w00qfQ==",
+      "path": "daany.lina.win-x64/1.0.3",
+      "hashPath": "daany.lina.win-x64.1.0.3.nupkg.sha512"
+    },
+    "intelmkl.redist.win-x64/2021.3.0.524": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qPqHbZvBq+aVi1OcwGK+yGddGymhENcVGPQBZnFKz+npak7qlkFnNYWDLTpv5IRljuJsRg/qffY5ii9vZHMrgQ==",
+      "path": "intelmkl.redist.win-x64/2021.3.0.524",
+      "hashPath": "intelmkl.redist.win-x64.2021.3.0.524.nupkg.sha512"
+    },
+    "intelopenmp.redist.win/2021.1.1.191": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UWTNSVeyksfitszw+9+/eQo7bHayMKDZakupYuhgfuk614/c5O6rOHwjBnyyb3jRBee+eiUJSfGK/NxeT+JiHw==",
+      "path": "intelopenmp.redist.win/2021.1.1.191",
+      "hashPath": "intelopenmp.redist.win.2021.1.1.191.nupkg.sha512"
+    },
+    "inteltbb.redist.win/2021.1.1.133": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9tgnLS4Ni7bXyS/mWorXfoOxkWcgyF6fxf6vlv7jzu5M28FkCotokI863psfa6Ewm8DWbNnHBx+vkuM4a1WbOQ==",
+      "path": "inteltbb.redist.win/2021.1.1.133",
+      "hashPath": "inteltbb.redist.win.2021.1.1.133.nupkg.sha512"
+    },
+    "FEMCommon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

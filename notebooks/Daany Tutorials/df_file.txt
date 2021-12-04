@@ -1,4 +1,4 @@
 ID,City,Zip Code,State,IsHome,Values,Date
-1,Sarajevo,71000,BiH,True,3.14,6/14/2021 10:19:59 PM
-2,Seattle,98101,USA,False,3.21,6/24/2021 10:19:59 PM
-3,Berlin,10115,GER,False,4.55,6/29/2021 10:19:59 PM
+1,Sarajevo,71000,BiH,True,3.14,30/09/2021 14:56:35
+2,Seattle,98101,USA,False,3.21,10/10/2021 14:56:35
+3,Berlin,10115,GER,False,4.55,15/10/2021 14:56:35
